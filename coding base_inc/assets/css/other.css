@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*----------------------------------------
+	u-device-sp
+----------------------------------------*/
+.u-device-sp {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .u-device-sp {
+    display: block;
+  }
+}
+
+/*----------------------------------------
+	u-device-tablet
+----------------------------------------*/
+.u-device-tablet {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .u-device-tablet {
+    display: block;
+  }
+}
+
+/*----------------------------------------
+	u-device-pc
+----------------------------------------*/
+@media screen and (max-width: 767px) {
+  .u-device-pc {
+    display: none;
+  }
+}
